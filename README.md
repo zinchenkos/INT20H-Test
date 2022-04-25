@@ -10,7 +10,7 @@ To do this, you need to teach the model using data from train.csv. After that, u
 Note that it is necessary to predict the fact of the relationship to the churn segment, without reference to the period (week).
 
 
-### Best result was reached by a model using ensemble of BaggingClassifier and XGBClassifier -
+### Best result was reached by a model using ensemble of BaggingClassifier and XGBClassifier
 BaggingClassifier(base_estimator=XGBClassifier(booster = 'dart', learning_rate=0.4, n_estimators=106, max_depth=3, min_child_weight=0), n_jobs=-1)
 
 ### AUC = 0.978
